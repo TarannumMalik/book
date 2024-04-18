@@ -1,0 +1,67 @@
+section .center select {
+    font-size: 27px;
+    border-style: none;
+    width: 133px;
+    margin-left: 54px;
+    margin-right: -57px;
+}
+section .center a {
+    padding-right: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 27px;
+    margin-left: 34px;
+    margin-right: -79px;
+}
+section .last-pro {
+    margin-right: -490px;
+    margin-left: 20px;
+}
+section .last-pro button {
+    width: 85px;
+    height: 27px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+main .trending .books {
+    margin-left: 87px;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 45px;
+    background-color: rgba(255, 0, 0, 0.124);
+    margin-right: -375px;
+}
+main .trending .books {
+    margin-left: 87px;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 45px;
+    background-color: rgba(255, 0, 0, 0.124);
+    margin-right: -375px;
+}
+main .trending .books .bookss img {
+    padding-top: 19px;
+    padding-left: 70px;
+    width: 421px;
+    height: 627px;
+}
+main .trending .books .bookss button {
+    margin-top: 10px;
+    height: 113px;
+    font-size: 68px;
+    background-color: #500a75;
+    color: aliceblue;
+}
+.footer h2 {
+    font-size: 37px;
+}
+.footer p {
+    font-size: 24px;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: gainsboro;
+    width: 867px;
+}

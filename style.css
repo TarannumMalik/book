@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+section {
+    display: flex;
+    justify-content: space-between;
+    padding: 19px;
+}
+section .nav{
+    display: flex;
+}
+section .nav i{
+    font-size: 35px;
+    text-shadow: 0 0 5px #500a75;
+    margin-top: 4px;
+}
+section .nav h1{
+    font-size: 45px;
+    font-family: sofia;
+}
+section .nav h1 span{
+    font-family: pyxidum quick;
+    color: #500a75;
+}
+section .center a{
+    padding-right: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+section .center select{
+    font-size: 19px;
+    border-style: none;
+    width: 90px;
+}
+section .last input{
+    border-radius: 5px;
+    height: 25px;
+    font-size: 17px;
+}
+section .last i{
+    font-size: 20px;
+}
+section .last i:hover{
+    cursor: pointer;
+}
+section .last-pro{
+    font-size: 20px;
+}
+section .last-pro button{
+    width: 60px;
+    height: 24px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+main{
+    margin-top: 60px;
+    border-style: double solid black;
+}
+main .trending a {
+    font-size: 20px;
+    color: #500a75;
+}
+main .trending .books{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+    padding: 0 30px;
+    background-color: rgba(255, 0, 0, 0.124);
+    }
+    main .trending .books .bookss img{
+        padding-top: 19px;
+        padding-left: 40px;
+    }
+    main .trending .books .bookss img:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+main .trending .books .bookss{
+    display: flex;
+    flex-direction: column;
+}
+main .trending .books .bookss button{
+    margin-top: 10px;
+    height: 40px;
+    font-size: 15px;
+    background-color: #500a75;
+    color: aliceblue;
+}
+main .trending .books .bookss button:hover{
+    background-color: rgb(220, 220, 220);
+    color: black;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: gainsboro;
+}
+.footer .summary{
+    display: flex;
+    flex-direction: column;
+}
+.footer .summary a{
+    text-decoration: none;
+    color: black;
+}
+.footer .contact i{
+    font-size: 30px;
+}

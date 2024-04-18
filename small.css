@@ -1,0 +1,31 @@
+section .center a {
+    padding-right: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 27px;
+    margin-left: 42px;
+    margin-right: -79px;
+}
+section .center select {
+    font-size: 27px;
+    border-style: none;
+    width: 133px;
+    margin-left: 49px;
+    margin-right: -23px;
+}
+section .last-pro button {
+    width: 65px;
+    height: 27px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+main .trending .books .bookss img {
+    padding-top: 19px;
+    padding-left: 37px;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: gainsboro;
+    width: 828px;
+}

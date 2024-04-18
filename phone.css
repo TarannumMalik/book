@@ -1,0 +1,42 @@
+section .last-pro {
+    margin-right: -251px;
+    margin-left: 20px;
+}
+section .center select {
+    font-size: 27px;
+    border-style: none;
+    width: 133px;
+    margin-left: 78px;
+    margin-right: -47px;
+}
+section .center a {
+    padding-right: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 27px;
+    margin-left: 67px;
+    margin-right: -79px;
+}
+main .trending .books {
+    margin-left: 87px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 45px;
+    background-color: rgba(255, 0, 0, 0.124);
+    margin-right: -155px;
+}
+main .trending .books .bookss img {
+    padding-top: 19px;
+    padding-left: 70px;
+}
+main .trending .books .bookss button {
+    margin-top: 10px;
+    height: 49px;
+    font-size: 28px;
+    background-color: #500a75;
+    color: aliceblue;
+}
+main .trending a {
+    font-size: 45px;
+    color: #500a75;
+}
